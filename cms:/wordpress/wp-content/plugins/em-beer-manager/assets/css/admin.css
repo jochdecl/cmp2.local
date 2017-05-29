@@ -1,0 +1,479 @@
+/**
+ * Copyright (c) 2013-2016, Erin Morelli.
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ *
+ * EM Beer Manager admin styles
+ */
+
+
+/**
+ * Set up beer icon font
+ */
+@font-face {
+    font-family: 'beer-icons';
+    src:url('../fonts/beer-icons.eot?rjxbel');
+    src:url('../fonts/beer-icons.eot?#iefixrjxbel') format('embedded-opentype'),
+        url('../fonts/beer-icons.woff?rjxbel') format('woff'),
+        url('../fonts/beer-icons.ttf?rjxbel') format('truetype'),
+        url('../fonts/beer-icons.svg?rjxbel#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**
+ * Style menus and beer list page
+ */
+.menu-icon-embm_beer .wp-menu-image::before {
+    content: "\e604";
+    font-family: 'beer-icons';
+}
+.widefat .column-id {
+    width: 35px;
+}
+.widefat .column-abv,
+.widefat .column-ibu,
+.widefat .column-beer_num {
+    width: 100px;
+}
+.widefat .column-untappd {
+    width: 80px;
+}
+.rl-warning {
+    max-width: 700px;
+}
+
+
+/**
+ * Style EM Beer Manager settings page
+ */
+.embm-settings--page .embm-settings--title .embm-settings--title-version {
+    color: #888;
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 7px;
+}
+.embm-settings--page .embm-settings--tabs-wrapper {
+    margin-bottom: 20px;
+}
+.embm-settings--page .nav-tab-wrapper {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+.embm-settings--page .nav-tab-wrapper > li {
+    margin-bottom: 0;
+}
+.embm-settings--page .nav-tab-wrapper .nav-tab-active {
+    background: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    color: #000;
+    margin-bottom: -1px;
+}
+.embm-settings--page .embm-settings--tab-settings {
+    position: relative;
+}
+.embm-settings--page .embm-settings--tab-settings .embm-settings--navbox {
+    position: fixed;
+    top: 132px;
+    right: 0;
+    background: #e5e5e5;
+    padding: 8px 20px 10px 25px;
+    border: 1px solid #ccc;
+}
+.embm-settings--page .embm-settings--tab-settings .embm-settings--navbox .dashicons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #888;
+    font-size: 13px;
+    cursor: pointer;
+    height: 100%;
+}
+.embm-settings--page .embm-settings--tab-settings .embm-settings--navbox .dashicons::before {
+    position: relative;
+    top: 50%;
+}
+.embm-settings--page .embm-settings--tab-settings .embm-settings--navbox a {
+    color: #555;
+}
+.embm-settings--page .embm-settings--table tbody td {
+    height: 40px;
+}
+.embm-settings--page .embm-settings--table tr td {
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+.embm-settings--page .embm-settings--table tr:first-child td {
+    border-top: 1px solid #ccc;
+}
+.embm-settings--page .embm-settings--table tr:nth-child(even) td {
+    background: #fafafa;
+}
+.embm-settings--page .embm-settings--form > .form-table {
+    margin-bottom: 50px;
+}
+.embm-settings--page .embm-settings--tab-usage .embm-settings--subhead {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 2em;
+}
+.embm-settings--page .embm-settings--tab-labs {
+    margin-bottom: 35px;
+}
+.embm-settings--page .embm-settings--untappd-select {
+    display: block;
+    float: left;
+}
+.embm-settings--page .embm-settings--untappd-icon {
+    display: block;
+    float: left;
+    margin-left: 15px;
+    margin-top: 1px;
+}
+.embm-settings--page .embm-settings--review-count {
+    margin-left: 25px;
+}
+.embm-settings--page .embm-settings--review-count input[type="number"] {
+    margin: 5px 5px 0;
+    width: 50px;
+}
+.embm-settings--page .embm-settings--status .embm-untappd--user-link {
+    text-decoration: none;
+}
+.embm-settings--page .embm-settings--status .embm-untappd--user-link .dashicons::before {
+    font-size: 18px;
+}
+.embm-settings--page .embm-settings--status .embm-untappd--deauthorize {
+    margin-left: 4px;
+}
+.embm-settings--page .embm-settings--code {
+    background-color: #DFDFDF;
+    background-color: rgba(0, 0, 0, 0.07);
+    font-family: Consolas,Monaco,monospace;
+    font-size: 13px;
+    margin: 0 1px;
+    max-width: 450px;
+    padding: 3px 5px 2px;
+}
+.embm-settings--page .embm-settings--tab-labs .dashicons-warning {
+    color: #FFB900;
+    cursor: help;
+    line-height: 28px;
+    margin-left: 10px;
+}
+.embm-settings-footer--credits > p {
+    font-size: 10px;
+    line-height: 18px;
+    margin: 0;
+}
+.embm-settings-footer--credits a {
+    display: inline-block;
+}
+.embm-settings-footer--credits-untappd {
+    padding: 5px;
+}
+.embm-settings-footer--donate-text {
+    font-size: 12px;
+}
+.embm-settings-footer--donate a,
+.embm-settings-footer--credits-untappd > a {
+    display: inline-block;
+}
+.embm-settings-footer--credits-untappd > a > img {
+    width: 120px;
+}
+.embm-settings--spinner {
+    float: none;
+    margin-top: 0;
+}
+@media screen and (max-width: 782px) {
+    .embm-settings--page .embm-settings--untappd-icon {
+        margin: 5px 0 10px;
+    }
+}
+
+
+/**
+ * EMBM Admin Notices
+ */
+.embm-notice {
+    position: relative;
+}
+.embm-notice--title {
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+
+/**
+ * Style EM Beer Manager style reset prompt
+ */
+.embm-styles-reset-prompt--content p {
+    margin: 5px 0;
+}
+.embm-styles-reset-prompt--content .emphasis {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+/**
+ * Style EM Beer Manager labs page
+ */
+.embm-settings--tab-labs .warning {
+    color: red;
+    font-weight: bold;
+}
+.embm-settings--tab-labs .emphasis {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.embm-settings--tab-labs .labs-section {
+    color: #23282d;
+    font-size: 14px;
+    font-weight: 600;
+}
+.embm-settings--tab-labs .embm-labs--import-select {
+    margin-right: 10px;
+}
+
+
+/**
+ * Style EMBM metaboxes
+ */
+.embm-metabox::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.embm-metabox__left,
+.embm-metabox__right {
+    float: left;
+}
+.embm-metabox__left {
+    width: 35%;
+}
+.embm-metabox__right {
+    width: 65%;
+}
+.embm-metabox__field br {
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 960px) {
+    .embm-metabox .embm-metabox__left,
+    .embm-metabox .embm-metabox__right {
+        float: none;
+        width: 100% !important;
+    }
+    .embm-metabox .embm-metabox__left {
+        margin-bottom: 20px;
+    }
+}
+
+/* Extras */
+.embm-metabox--extras .embm-metabox__field input {
+    width: 80%;
+}
+.embm-metabox--extras-notes-title {
+    margin-bottom: 5px;
+}
+
+/* Untappd */
+.embm-metabox--untappd-empty {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 40px;
+
+}
+.embm-metabox--untappd-id {
+    width: 100%;
+}
+.embm-metabox--untappd-id input,
+.embm-metabox--untappd-select select {
+    width: 80%;
+}
+.embm-metabox--untappd-reviews-count,
+.embm-metabox--untappd-rating-format {
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.embm-metabox--untappd-checkboxes,
+.embm-metabox--untappd-flush {
+    float: left;
+}
+.embm-metabox--untappd-checkboxes {
+    margin-right: 40px;
+    width: 40%;
+}
+.embm-metabox--untappd-flush {
+    max-width: calc(60% - 40px);
+}
+.embm-metabox--untappd-flush .dashicons {
+    line-height: 26px;
+    color: #FFB900;
+    cursor: help;
+}
+@media only screen and (max-width: 960px) {
+    .embm-metabox--untappd .embm-metabox--untappd-checkboxes,
+    .embm-metabox--untappd .embm-metabox--untappd-flush {
+        float: none;
+        width: 100% !important;
+    }
+}
+
+
+/**
+ * Contextual help link styles
+ */
+.embm-settings--help {
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 6px;
+    text-decoration: underline;
+}
+
+
+/**
+ * jQuery UI Slider CSS
+ */
+#embm-settings--rating-opacity--slider {
+    max-width: 225px;
+    width: 100%;
+}
+#embm-settings--rating-opacity--slider .ui-slider-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+.embm-settings--rating-opacity .ui-slider {
+    position: relative;
+    text-align: left;
+}
+.embm-settings--rating-opacity .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+.embm-settings--rating-opacity .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+/* support: IE8 - See #6727 */
+.embm-settings--rating-opacity .ui-slider.ui-state-disabled .ui-slider-handle,
+.embm-settings--rating-opacity .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+
+.embm-settings--rating-opacity .ui-slider-horizontal {
+    height: .8em;
+}
+.embm-settings--rating-opacity .ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+.embm-settings--rating-opacity .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.embm-settings--rating-opacity .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.embm-settings--rating-opacity .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+.embm-settings--rating-opacity .ui-slider-vertical {
+    width: .8em;
+    height: 100px;
+}
+.embm-settings--rating-opacity .ui-slider-vertical .ui-slider-handle {
+    left: -.3em;
+    margin-left: 0;
+    margin-bottom: -.6em;
+}
+.embm-settings--rating-opacity .ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+.embm-settings--rating-opacity .ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+.embm-settings--rating-opacity .ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+.embm-settings--rating-opacity .ui-widget {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+.embm-settings--rating-opacity .ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+}
+.embm-settings--rating-opacity .ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+}
+
+.embm-settings--rating-opacity .ui-widget .ui-widget {
+    font-size: 1em;
+}
+.embm-settings--rating-opacity .ui-corner-all,
+.embm-settings--rating-opacity .ui-corner-bottom,
+.embm-settings--rating-opacity .ui-corner-right,
+.embm-settings--rating-opacity .ui-corner-br {
+    border-bottom-right-radius: 3px;
+}
+.embm-settings--rating-opacity .ui-corner-all,
+.embm-settings--rating-opacity .ui-corner-bottom,
+.embm-settings--rating-opacity .ui-corner-left,
+.embm-settings--rating-opacity .ui-corner-bl {
+    border-bottom-left-radius: 3px;
+}
+.embm-settings--rating-opacity .ui-corner-all,
+.embm-settings--rating-opacity .ui-corner-top,
+.embm-settings--rating-opacity .ui-corner-right,
+.embm-settings--rating-opacity .ui-corner-tr {
+    border-top-right-radius: 3px;
+}
+.embm-settings--rating-opacity .ui-corner-all,
+.embm-settings--rating-opacity .ui-corner-top,
+.embm-settings--rating-opacity .ui-corner-left,
+.embm-settings--rating-opacity .ui-corner-tl {
+    border-top-left-radius: 3px;
+}
+.embm-settings--rating-opacity .ui-state-default,
+.embm-settings--rating-opacity .ui-widget-content .ui-state-default {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+}

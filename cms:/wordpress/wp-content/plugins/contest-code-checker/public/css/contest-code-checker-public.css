@@ -1,0 +1,99 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+div #contest_code_checker_container {
+     padding-top: 30px;
+     padding-bottom: 15px;
+     padding-right:350px;
+     margin-top:-12px;
+     background-color:white;
+     border-radius: 4px;
+     margin-right: 0px;
+     margin-left:10px;
+ }
+
+
+
+
+ div #contest_code_checker_container img {
+    padding-bottom: 50px;
+    margin-left:60px;
+    width: 250px;
+    
+   
+ }
+
+ div #contest_code_checker_container .ccc_form_element input {
+     
+     color: #757575;
+    font-size:15px;
+ }
+
+div #contest_code_checker_container .ccc_form_element #contestants_name{
+    width:300px;
+    height:35px;
+    border-radius: 4px;
+    margin-left:25px;
+     
+ }
+
+ div #contest_code_checker_container .ccc_form_element #contestants_name-error{
+     color:red;
+   clear: both;
+    display: inline-block;
+   margin-left:25px;
+    white-space: nowrap;
+   height:20px;
+ }
+
+  div #contest_code_checker_container .ccc_form_element #contestants_email-error{
+     color:red;
+   clear: both;
+    display: inline-block;
+   margin-left:25px;
+    white-space: nowrap;
+   
+ }
+
+  div #contest_code_checker_container .ccc_form_element #contestants_code-error{
+     color:red;
+   clear: both;
+    display: inline-block;
+   margin-left:25px;
+    white-space: nowrap;
+   
+ }
+
+ div #contest_code_checker_container .ccc_form_element #contestants_email{
+    width:300px;
+    height:35px;
+    border-radius: 4px;
+    margin-left:25px;
+     
+ }
+
+ div #contest_code_checker_container .ccc_form_element #contestants_code{
+    width:300px;
+    height:35px;
+    border-radius: 4px;
+    margin-left:25px;
+ }
+
+ div #contest_code_checker_container .ccc_form_submit {
+     
+    padding-top:10px;
+ }
+
+ div #contest_code_checker_container .ccc_form_submit #contest_code_checker_submit{
+     
+     background-color: #d7b471;
+     border-radius: 4px;
+     color:#ecf0f1;
+     width:300px;
+     height:35px;
+     margin-left:25px;
+     font: arial;
+     font-size: 15px;
+ }

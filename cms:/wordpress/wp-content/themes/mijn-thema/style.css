@@ -1,0 +1,767 @@
+/*
+Theme Name: Beerspot
+Theme URI: http://arteveldehogeschool.be/
+Description: Mijn eerste thema.
+Version: 1.0
+Author: Jochen De Clercq & Xandrijn Verhaegen
+Author URI: 
+Tags: eerste thema, wordpress, school, groepswerk, project
+*/
+
+body{
+   background-color:#ececec;
+   font-size: 12px;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+#sidebar_2_down{
+    color:white;
+}
+footer {
+  margin-top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.navbar li{
+float:left;
+padding:20px;
+padding-top: 0px;
+padding-bottom: -30px;
+color: white;
+text-decoration: none;
+
+}
+
+.menu-item a{
+    filter: invert(100%);
+}
+
+.menu-item a:hover{
+    color: grey;
+}
+
+
+
+#menu-item-187{
+    position: absolute;
+    left: 1300px;
+    top: 34px;
+}
+#menu-mainmenu{
+    padding-top: 30px;
+    margin-bottom: 0px;
+    
+}
+.navbar a{
+padding-left: 0px;
+font-size: 20px;
+padding: 0px;
+padding-top: 0px;
+color: white;
+text-decoration: none;
+
+}
+
+.navbar li a{
+margin-top: 0px;
+
+}
+
+
+.custom-logo-link{
+    filter: invert(0%);
+}
+
+
+.navbar{
+     border-bottom: 5px solid black;
+     background-color: white;
+}
+
+
+
+#postsFront2{
+    color: 	#cbcfd2;
+    
+    background: white;
+    padding-bottom: 30px;
+
+}
+
+#postsFront{
+    color: 	#936f27;
+    text-align: center;
+    
+    padding-bottom: 30px;
+
+}
+
+#postsFront h2{
+    text-align: center;
+}
+
+#postsFront:hover{
+    color: 	#775207;
+   
+    text-decoration: none;
+   
+}
+
+
+
+.titel_post{
+    color: 	#775207;
+    
+}
+
+.titel_post:hover{
+    color: 	#936f27;
+    text-decoration: none;
+}
+
+
+.col-md-4{
+    border-top: 7px solid #ececec;
+    color: 	#ececec;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-left: 7px solid #ececec;
+    border-right: 7px solid #ececec;
+    border-radius: 30px;
+    background-color: #d6b471;
+    margin-left:0px;
+    margin-right: 0px;
+    height: 500px;
+
+}
+
+.col-md-4 p{
+ margin-top: -20px;
+ color: #775207;
+
+}
+
+.col-md-4 a{
+
+ color: #775207;
+
+}
+
+.col-md-9{
+    position: absolute;
+    left: 20px; 
+    top: 220px;
+    color: #775207;
+}
+
+.col-md-9 a{
+   color: #775207;
+}
+
+.col-md-12 a{
+    color: 	#ececec;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 2px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.col-md-9{
+    float: right;
+}
+/*
+#sidebar {
+     background: #f1f1f1;
+     margin-top: 20px;
+     margin-left: 0px;
+     padding-left: 10px;
+     text-align: left;
+     border-radius: 10px;
+     margin-bottom: 1200px;
+     
+}
+*/
+#sidebar a {
+     text-decoration: none;
+}
+
+#sidebar li  {
+    color: #ececec;
+    margin-left: -35px;
+}
+
+
+/* social */
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     color: white;
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+ .content-column p{
+     margin-left: 35px;
+ }
+
+ .wp-image-63{
+     margin-left: 210px;
+ }
+
+ .content2 a{
+     color: #775207;
+ }
+
+  .content2 a:hover{
+     color: #936f27;
+     text-decoration: none;
+ }
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ /* einde social */
+
+ #socialfront{
+     position: fixed;
+    top: 45px;
+    right: 10px;
+ }
+
+#slider{
+    margin-top: -24px;
+    
+}
+#slider2{
+    width: 100%;
+    
+}
+#filmpje{
+    margin-top: 20px;
+    margin-left: 0px;
+    opacity: 0.6;
+
+    
+}
+#filmpje:hover{
+    margin-top: 20px;
+    margin-left: 0px;
+    opacity: 1;
+}
+
+#meerposts{
+    position: relative;
+    left:370px;
+    top:20px;
+    color: black;
+    
+}
+
+#meerposts a{
+    margin-bottom: 20px;
+    color: black;
+     display: block;
+    width: 115px;
+    height: 37px;
+    background: #d6b471;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #775207;
+    font-weight: bold;
+}
+
+
+#sidebar-2 {
+    float: left;
+    padding: 5% 0 3%;
+    margin-right: 30px;
+    width: 138px;
+}
+
+.sidebar-none #sidebar-2 {
+    display: none;
+}
+
+#content {
+    width: 528px;
+}
+
+#foto1{
+    opacity: 0.6;
+}
+#foto1:hover{
+    opacity: 1;
+}
+#foto2{
+    opacity: 0.6;
+}
+
+#foto2:hover{
+    opacity: 1;
+}
+#foto3{
+    opacity: 1;
+    position: relative;
+    left: 70px;
+    top: 0px;
+    width: 100px;
+    border-radius: 30px;
+    
+}
+
+#foto10{
+    opacity: 1;
+    position: relative;
+    left: 70px;
+    top: 0px;
+    border-radius: 30px;
+}
+#foto4{
+    opacity: 0.6;
+    position: absolute;
+    left: 0px;
+    top: 700px;
+    
+}
+
+#foto4:hover{
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    top: 700px;
+   
+}
+
+
+
+#opmaakblogpost{
+   border-top: 7px solid #d6b471;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #d6b471;;
+    margin-left: -20px; 
+    
+}
+#opmaakblogpost p {
+   color: #775207;
+    
+}
+
+
+#opmaakblogpost a:hover{
+  text-decoration: none;
+     color:#775207;
+}
+
+#text_footer{
+    color: black;
+   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-family: "Courier New", Times, serif; 
+   padding-top: 10px;
+}
+#the_thumbnail{
+    margin: auto;
+    width: 50%;
+    margin-left: 50px;
+    
+}
+
+#titel_blog{
+margin: auto;
+padding-left: 110px;
+padding-top: -15px;
+width: 50%;
+}
+
+
+.afbeelding_post{
+    position: absolute;
+    left: 30px; 
+    top: 80px;
+}
+
+#inhoud_blogpost{
+    margin-left: 20px;
+    color: #936f27;
+}
+
+#inhoud_blogpost a{
+    color: #936f27;
+}
+
+.next_prev_buttons{
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  text-align: center;
+  width: 80px;
+  margin-left: 380px;
+}
+
+.next_prev_buttons2 {
+    margin-left: 550px;;
+    color: black;
+}
+
+.next_prev_buttons2 a{
+    
+    color: black;
+}
+
+.next_prev_buttons a{
+ color: black;
+}
+
+ .col-xs-12 h1{
+    text-align: center;
+}
+
+
+.attachment-1100x3000 {
+   display: block;
+    margin: auto;
+    
+   
+}
+
+.comment-form-comment{
+    background-color: #d6b471;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-left: 30px;
+}
+
+.submit{
+    margin-left: 90px;
+}
+
+
+.comment-form-comment label{
+    color: #775207;
+
+}
+
+.logged-in-as a{
+    color:#775207;
+}
+
+#about_us_post{
+    margin-left: 50px;
+    
+}
+
+#about_us_post p{
+    margin-left: 30px;
+    margin-top: -3px;
+}
+
+#opmaak_img_about{
+    position: absolute;
+    left: 900px;
+    top: -550px;
+}
+
+#foto8{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+#foto9{
+    position: absolute;
+    left: 410px;
+    top: 300px;
+}
+
+#the_thumbnail{
+    margin-left: 65px;
+}
+
+.more-link{
+    color: #775207;
+}
+
+.textwidget{
+    padding-bottom: 30px;
+   
+}
+.widget-title{
+    padding-top: 25px;
+}
+
+#categories-2 h3{
+    margin-top: -40px;
+}
+
+.cat-item a{
+    color: black;
+}
+.cat-item a:hover{
+    color: #767b8d;
+}
+
+#recent-posts-3 a{
+    color: black;
+}
+
+#recent-posts-3 a:hover{
+    color: #767b8d;;
+}
+
+.more-link{
+    color: black;
+}
+/* opmaak single post pages */
+
+.container1{
+    background-color: #d6b471;
+    border-radius: 30px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.container1 h1{
+    color:#775207;
+    padding-bottom: 20px;
+}
+
+.container1 p{
+    color:#775207;
+}
+.container1 p{
+    color:#775207;
+}
+
+
+.comment-body p{
+    color: #775207;
+    margin-left: 45px;
+    margin-top: -40px;
+    margin-left: 57px;
+
+}
+
+.comment-meta{
+    margin-left: 45px;
+    
+    
+}
+.comment-meta a{
+  
+    color:#775207;
+    font-size: 9px;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+   margin-left: 20px;
+   padding-bottom: 20px;
+}
+
+.avatar{
+    opacity: 1;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.says{
+    color:#775207;
+}
+
+.fn{
+    color:#775207;
+}
+
+.comment-reply-link{
+    margin-left: 65px;
+  
+}
+
+
+.reply a{
+    margin-left: 260px;
+    padding-top: -20px;
+
+    color: #775207;
+    font-size: 9px;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+   padding-bottom: 20px;
+}
+
+
+/* contact */
+.col-md-6{
+    position: relative;
+    left: 150px;
+    margin-top: 50px;
+
+}
+
+
+
+.contact{
+    margin-top: 2%;
+    margin-left:40%;
+
+    }
+
+ 
+
+
+.marker img{
+    width:80px;
+    height:80px;
+    align:middle;
+    
+}
+
+#valign_middle {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #2c3e50;
+    margin-left:20%;
+    width: 695px;;
+}
+
+.valign-middle {
+    vertical-align:middle;
+}
+
+.map{
+    padding-top:-200px;
+}
+/* contact form 7*/
+
+.wpcf7 {
+    padding: 100px 0px 0px 0px;
+}
+
+
+/* 404 page */
+
+  .particles-js-canvas-el{
+      background-color: black;
+  }
+
+   .some {
+    font-family: 'Source Sans Pro';
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    height: 420px;
+    
+    top: 35%;
+    left: 30%;
+    margin: -110px 0 0 -100px;
+    padding: 20px;
+    margin-right:200px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.some h1#oops{
+    font-size: 120px;
+    color: #d6b471;
+    padding-bottom:20px;
+}
+
+
+.some h1#sub{
+    font-size: 29px;
+    color: #909193;
+    padding-bottom:15px;
+}
+
+.some h3#code{
+    font-size: 15px;
+    color: #909193;
+    padding-bottom:10px;
+}
+
+.some h3#links{
+    font-size: 15px;
+    color: #909193;
+    
+}
+
+.some a{
+    text-decoration: none;
+    color: #d6b471;
+    
+}
+
+.some a:hover{
+   color: #936f27;
+    
+}
+
+/* contest */
+
+#contest{
+    margin-left:125px;
+    padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right:150px;
+     background-color:#ECECEC;
+     border-radius: 4px;
+     margin-right: 0px;
+}
+
+#imgcontest{
+    padding-top:10px;
+    width:720px;
+    margin-left:-60px;
+}
+    
+.wp-image-571 alignleft
+{
+    margin-left:200px;
+}
+
+
+
+
